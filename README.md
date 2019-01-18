@@ -108,3 +108,19 @@ How to run example [RabbitsApp](https://github.com/zx80live/rabbits_dsl/blob/mas
 ```
 > sbt run
 ```
+
+TODO improvements
+-----------------------------
+This project can be improved by the following:
+
+- separate to models (as case classes), builders and views
+
+- implement a some `TableBuilderDSL` which is going to contain implicits extensions of model with the build-functions of the pure model
+
+- implement a some `HTMLTableDSL` which is going to contain implicit extensions of model with the HTML rendering-functions
+
+- implement a some `XMLTableDSL` which is going to contain implicit extensions of model with the XML rendering-functions
+
+- implement a some `JSONTableDSL` which is going to contain implicit extensions of model with the JSON rendering-functions
+
+...
