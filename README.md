@@ -74,7 +74,7 @@ API
 -----------------------------
 `Table` - the class which provides an simple immutable HTML-builder.
 
-`Table() | "something"` - returns new builder with the new cell `something`
+`Table() | "something"` - returns new builder with the new cell `something` which has been added to the last row of the current table
 
 `Table() || "something"` - returns new builder with the new row which contains the cell `something`
 
