@@ -4,7 +4,7 @@ Version 1.0
 
 Description
 -----------------------------
-This is a simple immutable thread-safe builder for HTML-files.
+This is a simple immutable thread-safe builder for HTML-tables.
 For example:
 ```
 import com.zx80live.examples.rabbits.AsciiLib.Animals._
@@ -18,7 +18,7 @@ Clover || "A" | "B" || Rabbit1
 
 The above code produces the following HTML:
 
-<table border="1"><tr><td><pre>
+<table border="0"><tr><td><pre>
 &nbsp;\\
 &nbsp;&nbsp;\\_
 &nbsp;&nbsp;&nbsp;(_)
