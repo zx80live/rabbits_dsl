@@ -11,8 +11,7 @@ object RabbitsApp {
 
   def main(args: Array[String]): Unit = {
     val t = MyTablePrinter() | Rabbit1 | Rabbit2 | Rabbits || TwoLittleRabbits | TwoLittleRabbits | TwoLittleRabbits || Clover || "A" | "B" || Rabbit1
-    //println(Page(t))
-    println(t)
+    println(Page(t))
 
     Utils.withWriter("result.html") {
       _.write(t.toString)
