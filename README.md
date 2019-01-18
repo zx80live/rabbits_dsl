@@ -63,8 +63,6 @@ o(&nbsp;)_\_
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</pre></td></tr></table>
 
 
-
-
 Requirements
 -----------------------------
 - Scala: 2.12.8
@@ -72,6 +70,26 @@ Requirements
 - JRE:  >= 1.8
 
 
+API
+-----------------------------
+`Table` - the class which provides an simple immutable HTML-builder.
+
+`Table() | "something"` - returns new builder with the new cell `something`
+
+`Table() || "something"` - returns new builder with the new row which contains the cell `something`
+
+`Table().columns` - returns a max columns count of the current table
+
+`Table().rows` - returns a normalized rows of the current builder. `normalized` means that cells of the shorter rows
+contain `colspan` attributes
+
+`Table().map(...)` - transformer of the normalized rows
+
+`Table().foreach(...)` - provides iteration on normalized rows with the side-effect
+
+`Table().toString` - returns HTML-text
+
+`MyTablePrinter` - just simple factory of the `Table` in the terms of test-task.
 
 Usage
 -----------------------------
