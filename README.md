@@ -72,7 +72,7 @@ Requirements
 
 API
 -----------------------------
-`Table` - the class which provides an simple immutable HTML-builder.
+`Table` - the class which provides a simple immutable HTML-builder.
 
 `Table() | "something"` - returns new builder with the new cell `something` which has been added to the last row of the current table
 
