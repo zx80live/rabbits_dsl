@@ -10,7 +10,11 @@ object RabbitsApp {
   }
 
   def main(args: Array[String]): Unit = {
-    val t = MyTablePrinter() | Rabbit1 | Rabbit2 | Rabbits || TwoLittleRabbits | TwoLittleRabbits | TwoLittleRabbits || Clover || "A" | "B" || Rabbit1
+    val t = MyTablePrinter() |
+      Rabbit1 | Rabbit2 | Rabbits ||
+      TwoLittleRabbits | TwoLittleRabbits | TwoLittleRabbits ||
+      Clover || "A" | "B" || Rabbit1
+
     val p = Page(t)
     println(p)
 
