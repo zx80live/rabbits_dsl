@@ -85,7 +85,7 @@ How to run tests:
 > sbt test
 ```
 
-How to run example [RabbitsApp]("https://github.com/zx80live/rabbits_dsl/blob/master/src/main/scala/com/zx80live/examples/rabbits/RabbitsApp.scala") with creation of `result.html` in the current folder:
+How to run example [RabbitsApp](https://github.com/zx80live/rabbits_dsl/blob/master/src/main/scala/com/zx80live/examples/rabbits/RabbitsApp.scala) with creation of `result.html` in the current folder:
 ```
 > sbt run
 ```
