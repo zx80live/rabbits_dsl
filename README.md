@@ -11,7 +11,9 @@ import com.zx80live.examples.rabbits.AsciiLib.Animals._
 import com.zx80live.examples.rabbits.AsciiLib.Plants._
 
 
-MyTablePrinter() | Rabbit1 | Rabbit2 | Rabbits || TwoLittleRabbits | TwoLittleRabbits | TwoLittleRabbits || Clover || "A" | "B" || Rabbit1
+MyTablePrinter() | Rabbit1 | Rabbit2 | Rabbits ||
+TwoLittleRabbits | TwoLittleRabbits | TwoLittleRabbits ||
+Clover || "A" | "B" || Rabbit1
 ```
 
 The above code produces the following HTML:
