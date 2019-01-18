@@ -67,12 +67,19 @@ o(&nbsp;)_\_
 Requirements
 -----------------------------
 - Scala: 2.12.8
+- sbt: 1.2.8
 - JRE:  >= 8.x
 
 
 
 Usage
 -----------------------------
+How to fetch local copy:
+```
+> git clone https://github.com/zx80live/rabbits_dsl
+> cd rabbits_dsl
+```
+
 How to run tests:
 ```
 > sbt test
