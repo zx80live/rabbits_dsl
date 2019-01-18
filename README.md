@@ -7,8 +7,9 @@ Description
 This is a simple immutable thread-safe builder for HTML-tables.
 For example:
 ```
-import com.zx80live.examples.rabbits.AsciiLib.Animals._
-import com.zx80live.examples.rabbits.AsciiLib.Plants._
+import com.zx80live.examples.rabbits._
+import AsciiLib.Animals._
+import AsciiLib.Plants._
 
 
 MyTablePrinter() | Rabbit1 | Rabbit2 | Rabbits ||
